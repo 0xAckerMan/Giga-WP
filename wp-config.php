@@ -82,6 +82,7 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
+define('JWT_AUTH_SECRET_KEY', 'qwhifuhuiofkjljnasdoijpoiuqwru');
 
 
 
@@ -94,3 +95,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+
